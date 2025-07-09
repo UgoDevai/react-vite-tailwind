@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from 'react';
 function BlurScroll({ content }) {
   const blurRef = useRef(null);
   const ulRef = useRef(null);
-  const [debug, setDebug] = useState(false);
+  const [debug] = useState(false);
   
   useEffect(() => {
     if (!blurRef.current) return;

@@ -90,7 +90,7 @@ function Home() {
 
     // Function that moves each text span to create the scrolling effect
     const move = () => {
-      tspansRef.current.forEach((tspan, i) => {
+      tspansRef.current.forEach((tspan) => {
         if (!tspan) return // Skip if ref is not set
 
         // Get current x position and move it left by 0.3 pixel
@@ -214,21 +214,6 @@ function Home() {
       ]
     }
   };
-  
-  const pageContent = {
-    th: {
-      hero: {
-        title: 'ยินดีต้อนรับสู่ แลนด์ฟอร์ยู',
-        subtitle: 'บ้านที่ดินเพื่อคุณ'
-      }
-    },
-    en: {
-      hero: {
-        title: 'Welcome to Land For You',
-        subtitle: 'Homes and Land for You'
-      }
-    }
-  }
 
   return (
     <div className="min-h-screen home-page font-iphone-system">
