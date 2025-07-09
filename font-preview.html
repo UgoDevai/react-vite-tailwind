@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font Preview - ตัวอย่างฟอนต์</title>
+    
+    <!-- Import all fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=K2D:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Taviraj:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 2rem;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 3rem;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            text-align: center;
+            margin-bottom: 3rem;
+            color: #333;
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+        
+        .font-group {
+            margin-bottom: 4rem;
+            padding: 2rem;
+            background: #f8f9fa;
+            border-radius: 15px;
+            border-left: 5px solid #667eea;
+        }
+        
+        .font-group h2 {
+            color: #667eea;
+            margin-bottom: 2rem;
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+        
+        .font-sample {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        
+        .font-name {
+            font-size: 0.9rem;
+            color: #666;
+            margin-bottom: 1rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .sample-heading {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            color: #333;
+        }
+        
+        .sample-thai {
+            margin-bottom: 1rem;
+            color: #555;
+        }
+        
+        .sample-english {
+            color: #555;
+        }
+        
+        /* Font styles */
+        .elegant-classic-heading { font-family: 'Cormorant Garamond', 'Taviraj', serif; }
+        .elegant-classic-body { font-family: 'Cormorant Garamond', 'Taviraj', serif; }
+        
+        .elegant-modern-heading { font-family: 'Playfair Display', 'Prompt', serif; }
+        .elegant-modern-body { font-family: 'Playfair Display', 'Prompt', serif; }
+        
+        .tech-futuristic-heading { font-family: 'Space Grotesk', 'K2D', sans-serif; }
+        .tech-futuristic-body { font-family: 'Space Grotesk', 'K2D', sans-serif; }
+        
+        .tech-clean-heading { font-family: 'DM Sans', 'Mitr', sans-serif; }
+        .tech-clean-body { font-family: 'DM Sans', 'Mitr', sans-serif; }
+        
+        .friendly-rounded-heading { font-family: 'Nunito', 'Mitr', sans-serif; }
+        .friendly-rounded-body { font-family: 'Nunito', 'Mitr', sans-serif; }
+        
+        .friendly-warm-heading { font-family: 'Plus Jakarta Sans', 'Prompt', sans-serif; }
+        .friendly-warm-body { font-family: 'Plus Jakarta Sans', 'Prompt', sans-serif; }
+        
+        .business-formal-heading { font-family: 'Source Sans 3', 'Sarabun', sans-serif; }
+        .business-formal-body { font-family: 'Source Sans 3', 'Sarabun', sans-serif; }
+        
+        .business-modern-heading { font-family: 'Montserrat', 'Kanit', sans-serif; }
+        .business-modern-body { font-family: 'Montserrat', 'Kanit', sans-serif; }
+        
+        .luxury-serif-heading { font-family: 'Libre Baskerville', 'Taviraj', serif; }
+        .luxury-serif-body { font-family: 'Libre Baskerville', 'Taviraj', serif; }
+        
+        .luxury-contemporary-heading { font-family: 'Cormorant Garamond', 'Mitr', serif; }
+        .luxury-contemporary-body { font-family: 'Cormorant Garamond', 'Mitr', serif; }
+        
+        .copy-btn {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 0.8rem;
+            margin-top: 1rem;
+            transition: background 0.3s ease;
+        }
+        
+        .copy-btn:hover {
+            background: #5a67d8;
+        }
+        
+        .instructions {
+            background: #e3f2fd;
+            padding: 2rem;
+            border-radius: 10px;
+            margin-bottom: 3rem;
+            border-left: 4px solid #2196f3;
+        }
+        
+        .instructions h3 {
+            color: #1976d2;
+            margin-bottom: 1rem;
+        }
+        
+        .instructions code {
+            background: #fff;
+            padding: 0.2rem 0.5rem;
+            border-radius: 3px;
+            font-family: 'Monaco', 'Consolas', monospace;
+            color: #d32f2f;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎨 Font Preview - ตัวอย่างฟอนต์</h1>
+        
+        <div class="instructions">
+            <h3>วิธีการใช้งาน</h3>
+            <p>คลิกปุ่ม "Copy CSS Class" เพื่อคัดลอกชื่อ class แล้วนำไปใช้ใน component ของคุณ</p>
+            <p>ตัวอย่าง: <code>className="font-elegant-modern"</code></p>
+        </div>
+        
+        <!-- Elegant Styles -->
+        <div class="font-group">
+            <h2>✨ Elegant & Sophisticated</h2>
+            
+            <div class="font-sample">
+                <div class="font-name">Elegant Classic (Cormorant Garamond + Taviraj)</div>
+                <h3 class="sample-heading elegant-classic-heading">แลนด์ฟอร์ยู - Premium Living</h3>
+                <p class="sample-thai elegant-classic-body">สำหรับลูกค้าทุกท่าน ด้วยมาตรฐานระดับสากลและการดูแลเอาใจใส่ในทุกรายละเอียด</p>
+                <p class="sample-english elegant-classic-body">For all our customers, with international standards and attention to every detail.</p>
+                <button class="copy-btn" onclick="copyToClipboard('font-elegant-classic')">Copy CSS Class</button>
+            </div>
+            
+            <div class="font-sample">
+                <div class="font-name">Elegant Modern (Playfair Display + Prompt)</div>
+                <h3 class="sample-heading elegant-modern-heading">แลนด์ฟอร์ยู - Premium Living</h3>
+                <p class="sample-thai elegant-modern-body">สำหรับลูกค้าทุกท่าน ด้วยมาตรฐานระดับสากลและการดูแลเอาใจใส่ในทุกรายละเอียด</p>
+                <p class="sample-english elegant-modern-body">For all our customers, with international standards and attention to every detail.</p>
+                <button class="copy-btn" onclick="copyToClipboard('font-elegant-modern')">Copy CSS Class</button>
+            </div>
+        </div>
+        
+        <!-- Tech Styles -->
+        <div class="font-group">
+            <h2>🚀 Modern & Tech</h2>
+            
+            <div class="font-sample">
+                <div class="font-name">Tech Futuristic (Space Grotesk + K2D)</div>
+                <h3 class="sample-heading tech-futuristic-heading">แลนด์ฟอร์ยู - Premium Living</h3>
+                <p class="sample-thai tech-futuristic-body">สำหรับลูกค้าทุกท่าน ด้วยมาตรฐานระดับสากลและการดูแลเอาใจใส่ในทุกรายละเอียด</p>
+                <p class="sample-english tech-futuristic-body">For all our customers, with international standards and attention to every detail.</p>
+                <button class="copy-btn" onclick="copyToClipboard('font-tech-futuristic')">Copy CSS Class</button>
+            </div>
+            
+            <div class="font-sample">
+                <div class="font-name">Tech Clean (DM Sans + Mitr)</div>
+                <h3 class="sample-heading tech-clean-heading">แลนด์ฟอร์ยู - Premium Living</h3>
+                <p class="sample-thai tech-clean-body">สำหรับลูกค้าทุกท่าน ด้วยมาตรฐานระดับสากลและการดูแลเอาใจใส่ในทุกรายละเอียด</p>
+                <p class="sample-english tech-clean-body">For all our customers, with international standards and attention to every detail.</p>
+                <button class="copy-btn" onclick="copyToClipboard('font-tech-clean')">Copy CSS Class</button>
+            </div>
+        </div>
+        
+        <!-- Friendly Styles -->
+        <div class="font-group">
+            <h2>😊 Friendly & Approachable</h2>
+            
+            <div class="font-sample">
+                <div class="font-name">Friendly Rounded (Nunito + Mitr)</div>
+                <h3 class="sample-heading friendly-rounded-heading">แลนด์ฟอร์ยู - Premium Living</h3>
+                <p class="sample-thai friendly-rounded-body">สำหรับลูกค้าทุกท่าน ด้วยมาตรฐานระดับสากลและการดูแลเอาใจใส่ในทุกรายละเอียด</p>
+                <p class="sample-english friendly-rounded-body">For all our customers, with international standards and attention to every detail.</p>
+                <button class="copy-btn" onclick="copyToClipboard('font-friendly-rounded')">Copy CSS Class</button>
+            </div>
+            
+            <div class="font-sample">
+                <div class="font-name">Friendly Warm (Plus Jakarta Sans + Prompt)</div>
+                <h3 class="sample-heading friendly-warm-heading">แลนด์ฟอร์ยู - Premium Living</h3>
+                <p class="sample-thai friendly-warm-body">สำหรับลูกค้าทุกท่าน ด้วยมาตรฐานระดับสากลและการดูแลเอาใจใส่ในทุกรายละเอียด</p>
+                <p class="sample-english friendly-warm-body">For all our customers, with international standards and attention to every detail.</p>
+                <button class="copy-btn" onclick="copyToClipboard('font-friendly-warm')">Copy CSS Class</button>
+            </div>
+        </div>
+        
+        <!-- Business Styles -->
+        <div class="font-group">
+            <h2>💼 Professional Business</h2>
+            
+            <div class="font-sample">
+                <div class="font-name">Business Formal (Source Sans 3 + Sarabun)</div>
+                <h3 class="sample-heading business-formal-heading">แลนด์ฟอร์ยู - Premium Living</h3>
+                <p class="sample-thai business-formal-body">สำหรับลูกค้าทุกท่าน ด้วยมาตรฐานระดับสากลและการดูแลเอาใจใส่ในทุกรายละเอียด</p>
+                <p class="sample-english business-formal-body">For all our customers, with international standards and attention to every detail.</p>
+                <button class="copy-btn" onclick="copyToClipboard('font-business-formal')">Copy CSS Class</button>
+            </div>
+            
+            <div class="font-sample">
+                <div class="font-name">Business Modern (Montserrat + Kanit)</div>
+                <h3 class="sample-heading business-modern-heading">แลนด์ฟอร์ยู - Premium Living</h3>
+                <p class="sample-thai business-modern-body">สำหรับลูกค้าทุกท่าน ด้วยมาตรฐานระดับสากลและการดูแลเอาใจใส่ในทุกรายละเอียด</p>
+                <p class="sample-english business-modern-body">For all our customers, with international standards and attention to every detail.</p>
+                <button class="copy-btn" onclick="copyToClipboard('font-business-modern')">Copy CSS Class</button>
+            </div>
+        </div>
+        
+        <!-- Luxury Styles -->
+        <div class="font-group">
+            <h2>👑 Luxury & Premium</h2>
+            
+            <div class="font-sample">
+                <div class="font-name">Luxury Serif (Libre Baskerville + Taviraj)</div>
+                <h3 class="sample-heading luxury-serif-heading">แลนด์ฟอร์ยู - Premium Living</h3>
+                <p class="sample-thai luxury-serif-body">สำหรับลูกค้าทุกท่าน ด้วยมาตรฐานระดับสากลและการดูแลเอาใจใส่ในทุกรายละเอียด</p>
+                <p class="sample-english luxury-serif-body">For all our customers, with international standards and attention to every detail.</p>
+                <button class="copy-btn" onclick="copyToClipboard('font-luxury-serif')">Copy CSS Class</button>
+            </div>
+            
+            <div class="font-sample">
+                <div class="font-name">Luxury Contemporary (Cormorant Garamond + Mitr)</div>
+                <h3 class="sample-heading luxury-contemporary-heading">แลนด์ฟอร์ยู - Premium Living</h3>
+                <p class="sample-thai luxury-contemporary-body">สำหรับลูกค้าทุกท่าน ด้วยมาตรฐานระดับสากลและการดูแลเอาใจใส่ในทุกรายละเอียด</p>
+                <p class="sample-english luxury-contemporary-body">For all our customers, with international standards and attention to every detail.</p>
+                <button class="copy-btn" onclick="copyToClipboard('font-luxury-contemporary')">Copy CSS Class</button>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        function copyToClipboard(className) {
+            navigator.clipboard.writeText(className).then(function() {
+                alert('คัดลอก CSS class "' + className + '" แล้ว!');
+            }, function(err) {
+                console.error('Could not copy text: ', err);
+            });
+        }
+    </script>
+</body>
+</html>

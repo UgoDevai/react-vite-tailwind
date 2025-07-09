@@ -1,0 +1,4520 @@
+/* ColorPicker */
+
+width: 393px;
+height: 656px;
+
+background: rgba(250, 250, 250, 0.93);
+box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(40.7742px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 13px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Header */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 114px;
+
+position: absolute;
+height: 30px;
+left: 20px;
+right: 20px;
+top: 20px;
+
+
+
+/* SF Symbol / eyedropper */
+
+margin: 0 auto;
+width: 18.96px;
+height: 18.83px;
+
+/* Default/SystemBlue/Light
+
+Link, CTA
+*/
+background: #007AFF;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Colors */
+
+margin: 0 auto;
+width: 53px;
+height: 22px;
+
+/* Body/Bold */
+font-family: 'SF Pro Text';
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 22px;
+/* identical to box height, or 129% */
+text-align: center;
+letter-spacing: -0.408px;
+font-feature-settings: 'case' on;
+
+/* Label Color/Light/Primary */
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Close */
+
+margin: 0 auto;
+width: 30px;
+height: 30px;
+
+/* System Background/Light/Secondary */
+background: #F2F2F7;
+border-radius: 100px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* SF Symbol / xmark */
+
+position: absolute;
+left: 33.33%;
+right: 32.1%;
+top: 33.33%;
+bottom: 32.1%;
+
+/* Label Color/Light/Secondary */
+background: rgba(60, 60, 67, 0.6);
+
+
+/* SegmentedPicker
+
+Struct Picker
+*/
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 2px;
+
+position: absolute;
+height: 32px;
+left: 16px;
+right: 16px;
+top: 70px;
+
+/* Fill Color/Light/Tertiary */
+background: rgba(118, 118, 128, 0.12);
+border-radius: 8px;
+
+
+/* _SegmentedPicker-option */
+
+width: 119px;
+height: 28px;
+
+/* System Background/Light/Primary
+
+white
+*/
+background: #FFFFFF;
+border: 0.5px solid rgba(0, 0, 0, 0.04);
+box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.12), 0px 3px 1px rgba(0, 0, 0, 0.04);
+border-radius: 7px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Separator */
+
+position: absolute;
+visibility: hidden;
+left: 98.28%;
+right: 1.15%;
+top: 21.43%;
+bottom: 21.44%;
+
+/* Separator Color/Light/With Transparency */
+background: rgba(60, 60, 67, 0.36);
+border-radius: 0.5px;
+
+
+/* ✏️ Value */
+
+position: absolute;
+height: 16px;
+left: 8px;
+right: 8px;
+top: calc(50% - 16px/2);
+
+font-family: 'SF Pro Text';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 20px;
+/* or 154% */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.08px;
+
+/* Label Color/Light/Primary */
+color: #000000;
+
+
+
+/* _SegmentedPicker-option */
+
+width: 119px;
+height: 28px;
+
+border-radius: 7px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Separator */
+
+position: absolute;
+left: 98.28%;
+right: 1.15%;
+top: 21.43%;
+bottom: 21.44%;
+
+/* Separator Color/Light/With Transparency */
+background: rgba(60, 60, 67, 0.36);
+border-radius: 0.5px;
+
+
+/* ✏️ Value */
+
+position: absolute;
+height: 16px;
+left: 8px;
+right: 8px;
+top: calc(50% - 16px/2);
+
+font-family: 'SF Pro Text';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 20px;
+/* or 154% */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.08px;
+
+/* Label Color/Light/Primary */
+color: #000000;
+
+
+
+/* _SegmentedPicker-option */
+
+width: 119px;
+height: 28px;
+
+border-radius: 7px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* Separator */
+
+position: absolute;
+visibility: hidden;
+left: 98.28%;
+right: 1.15%;
+top: 21.43%;
+bottom: 21.44%;
+
+/* Separator Color/Light/With Transparency */
+background: rgba(60, 60, 67, 0.36);
+border-radius: 0.5px;
+
+
+/* ✏️ Value */
+
+position: absolute;
+height: 16px;
+left: 8px;
+right: 8px;
+top: calc(50% - 16px/2);
+
+font-family: 'SF Pro Text';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 20px;
+/* or 154% */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.08px;
+
+/* Label Color/Light/Primary */
+color: #000000;
+
+
+
+/* Color Selector */
+
+position: absolute;
+width: 343px;
+height: 280px;
+left: calc(50% - 343px/2);
+top: 126px;
+
+border-radius: 8px;
+
+
+/* Color Blocks */
+
+position: absolute;
+width: 343px;
+height: 280px;
+left: 0px;
+top: 0px;
+
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 + 157px);
+top: 252px;
+
+background: #DEEED4;
+
+
+/* Color Block */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: calc(50% - 28px/2 + 128.5px);
+top: 252px;
+
+background: #F6FADB;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 + 100px);
+top: 252px;
+
+background: #FDFBDD;
+
+
+/* Color Block */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: calc(50% - 28px/2 + 71.5px);
+top: 252px;
+
+background: #FEF1D5;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 + 43px);
+top: 252px;
+
+background: #FEECD4;
+
+
+/* Color Block */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: calc(50% - 28px/2 + 14.5px);
+top: 252px;
+
+background: #FFE2D6;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 - 14px);
+top: 252px;
+
+background: #FFDAD8;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 - 43px);
+top: 252px;
+
+background: #F9D3E0;
+
+
+/* Color Block */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: calc(50% - 28px/2 - 71.5px);
+top: 252px;
+
+background: #EFCAFE;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 - 100px);
+top: 252px;
+
+background: #D8C9FE;
+
+
+/* Color Block */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: calc(50% - 28px/2 - 128.5px);
+top: 252px;
+
+background: #D2E2FE;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 - 157px);
+top: 252px;
+
+background: #CBF0FF;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 + 157px);
+top: 224px;
+
+background: #CDE8B5;
+
+
+/* Color Block */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: calc(50% - 28px/2 + 128.5px);
+top: 224px;
+
+background: #F1F7B7;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 + 100px);
+top: 224px;
+
+background: #FFFBB9;
+
+
+/* Color Block */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: calc(50% - 28px/2 + 71.5px);
+top: 224px;
+
+background: #FDE4A8;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 + 43px);
+top: 224px;
+
+background: #FED9A8;
+
+
+/* Color Block */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: calc(50% - 28px/2 + 14.5px);
+top: 224px;
+
+background: #FFC5AB;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 - 14px);
+top: 224px;
+
+background: #FFB5AF;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 - 43px);
+top: 224px;
+
+background: #F4A4C0;
+
+
+/* Color Block */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: calc(50% - 28px/2 - 71.5px);
+top: 224px;
+
+background: #E292FE;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 - 100px);
+top: 224px;
+
+background: #B18CFE;
+
+
+/* Color Block */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: calc(50% - 28px/2 - 128.5px);
+top: 224px;
+
+background: #A7C6FF;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 - 157px);
+top: 224px;
+
+background: #93E3FC;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 + 157px);
+top: 196px;
+
+background: #B1DD8B;
+
+
+/* Color Block */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: calc(50% - 28px/2 + 128.5px);
+top: 196px;
+
+background: #EAF28F;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 + 100px);
+top: 196px;
+
+background: #FFF994;
+
+
+/* Color Block */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: calc(50% - 28px/2 + 71.5px);
+top: 196px;
+
+background: #FED977;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 + 43px);
+top: 196px;
+
+background: #FEC777;
+
+
+/* Color Block */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: calc(50% - 28px/2 + 14.5px);
+top: 196px;
+
+background: #FEA57D;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 - 14px);
+top: 196px;
+
+background: #FF8C82;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 - 43px);
+top: 196px;
+
+background: #EE719E;
+
+
+/* Color Block */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: calc(50% - 28px/2 - 71.5px);
+top: 196px;
+
+background: #D357FE;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 - 100px);
+top: 196px;
+
+background: #864FFD;
+
+
+/* Color Block */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: calc(50% - 28px/2 - 128.5px);
+top: 196px;
+
+background: #74A7FF;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 - 157px);
+top: 196px;
+
+background: #52D6FC;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 + 157px);
+top: 168px;
+
+background: #96D35F;
+
+
+/* Color Block */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: calc(50% - 28px/2 + 128.5px);
+top: 168px;
+
+background: #E4EF65;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 + 100px);
+top: 168px;
+
+background: #FFF76B;
+
+
+/* Color Block */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: calc(50% - 28px/2 + 71.5px);
+top: 168px;
+
+background: #FECB3E;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 + 43px);
+top: 168px;
+
+background: #FEB43F;
+
+
+/* Color Block */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: calc(50% - 28px/2 + 14.5px);
+top: 168px;
+
+background: #FE8648;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 - 14px);
+top: 168px;
+
+background: #FE6250;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 - 43px);
+top: 168px;
+
+background: #E63B7A;
+
+
+/* Color Block */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: calc(50% - 28px/2 - 71.5px);
+top: 168px;
+
+background: #BE38F3;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 - 100px);
+top: 168px;
+
+background: #5E30EB;
+
+
+/* Color Block */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: calc(50% - 28px/2 - 128.5px);
+top: 168px;
+
+background: #3A87FD;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 - 157px);
+top: 168px;
+
+background: #01C7FC;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 + 157px);
+top: 140px;
+
+background: #76BB40;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 + 128px);
+top: 140px;
+
+background: #D9EC37;
+
+
+/* Color Block */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: calc(50% - 28px/2 + 99.5px);
+top: 140px;
+
+background: #FEFB41;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 + 71px);
+top: 140px;
+
+background: #FCC700;
+
+
+/* Color Block */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: calc(50% - 28px/2 + 42.5px);
+top: 140px;
+
+background: #FFAB01;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 + 14px);
+top: 140px;
+
+background: #FF6A00;
+
+
+/* Color Block */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: calc(50% - 28px/2 - 14.5px);
+top: 140px;
+
+background: #FF4015;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 - 43px);
+top: 140px;
+
+background: #B92D5D;
+
+
+/* Color Block */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: calc(50% - 28px/2 - 71.5px);
+top: 140px;
+
+background: #982ABC;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 - 100px);
+top: 140px;
+
+background: #4D22B2;
+
+
+/* Color Block */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: calc(50% - 28px/2 - 128.5px);
+top: 140px;
+
+background: #0061FD;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 - 157px);
+top: 140px;
+
+background: #00A1D8;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 + 157px);
+top: 112px;
+
+background: #669D34;
+
+
+/* Color Block */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: calc(50% - 28px/2 + 128.5px);
+top: 112px;
+
+background: #C3D117;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 + 100px);
+top: 112px;
+
+background: #F5EC00;
+
+
+/* Color Block */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: calc(50% - 28px/2 + 71.5px);
+top: 112px;
+
+background: #D19D01;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 + 43px);
+top: 112px;
+
+background: #D38301;
+
+
+/* Color Block */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: calc(50% - 28px/2 + 14.5px);
+top: 112px;
+
+background: #DA5100;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 - 14px);
+top: 112px;
+
+background: #E22400;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 - 43px);
+top: 112px;
+
+background: #99244F;
+
+
+/* Color Block */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: calc(50% - 28px/2 - 71.5px);
+top: 112px;
+
+background: #7A219E;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 - 100px);
+top: 112px;
+
+background: #371A94;
+
+
+/* Color Block */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: calc(50% - 28px/2 - 128.5px);
+top: 112px;
+
+background: #0056D6;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 - 157px);
+top: 112px;
+
+background: #008CB4;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 + 157px);
+top: 84px;
+
+background: #4E7A27;
+
+
+/* Color Block */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: calc(50% - 28px/2 + 128.5px);
+top: 84px;
+
+background: #9BA50E;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 + 100px);
+top: 84px;
+
+background: #C4BC00;
+
+
+/* Color Block */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: calc(50% - 28px/2 + 71.5px);
+top: 84px;
+
+background: #A67B01;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 + 43px);
+top: 84px;
+
+background: #A96800;
+
+
+/* Color Block */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: calc(50% - 28px/2 + 14.5px);
+top: 84px;
+
+background: #AD3E00;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 - 14px);
+top: 84px;
+
+background: #B51A00;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 - 43px);
+top: 84px;
+
+background: #791A3D;
+
+
+/* Color Block */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: calc(50% - 28px/2 - 71.5px);
+top: 84px;
+
+background: #61187C;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 - 100px);
+top: 84px;
+
+background: #2C0977;
+
+
+/* Color Block */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: calc(50% - 28px/2 - 128.5px);
+top: 84px;
+
+background: #0042A9;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 - 157px);
+top: 84px;
+
+background: #016E8F;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 + 157px);
+top: 56px;
+
+background: #38571A;
+
+
+/* Color Block */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: calc(50% - 28px/2 + 128.5px);
+top: 56px;
+
+background: #6F760A;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 + 100px);
+top: 56px;
+
+background: #8D8602;
+
+
+/* Color Block */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: calc(50% - 28px/2 + 71.5px);
+top: 56px;
+
+background: #785800;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 + 43px);
+top: 56px;
+
+background: #7A4A00;
+
+
+/* Color Block */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: calc(50% - 28px/2 + 14.5px);
+top: 56px;
+
+background: #7B2900;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 - 14px);
+top: 56px;
+
+background: #831100;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 - 43px);
+top: 56px;
+
+background: #551029;
+
+
+/* Color Block */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: calc(50% - 28px/2 - 71.5px);
+top: 56px;
+
+background: #450D59;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 - 100px);
+top: 56px;
+
+background: #1A0A52;
+
+
+/* Color Block */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: calc(50% - 28px/2 - 128.5px);
+top: 56px;
+
+background: #012F7B;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 - 157px);
+top: 56px;
+
+background: #004D65;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 + 157px);
+top: 28px;
+
+background: #263E0F;
+
+
+/* Color Block */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: calc(50% - 28px/2 + 128.5px);
+top: 28px;
+
+background: #4F5504;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 + 100px);
+top: 28px;
+
+background: #666100;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 + 71px);
+top: 28px;
+
+background: #563D00;
+
+
+/* Color Block */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: calc(50% - 28px/2 + 42.5px);
+top: 28px;
+
+background: #583300;
+
+
+/* Color Block */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: calc(50% - 28px/2 + 14.5px);
+top: 28px;
+
+background: #5A1C00;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 - 14px);
+top: 28px;
+
+background: #5C0701;
+
+
+/* Color Block */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: calc(50% - 28px/2 - 42.5px);
+top: 28px;
+
+background: #3C071B;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 - 71px);
+top: 28px;
+
+background: #2E063D;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 - 100px);
+top: 28px;
+
+background: #11053B;
+
+
+/* Color Block */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: calc(50% - 28px/2 - 128.5px);
+top: 28px;
+
+background: #011D57;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 - 157px);
+top: 28px;
+
+background: #00374A;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 + 157px);
+top: 0px;
+
+background: #000000;
+
+
+/* Color Block */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: calc(50% - 28px/2 + 128.5px);
+top: 0px;
+
+background: #333333;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 + 100px);
+top: 0px;
+
+background: #474747;
+
+
+/* Color Block */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: calc(50% - 28px/2 + 71.5px);
+top: 0px;
+
+background: #5C5C5C;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 + 43px);
+top: 0px;
+
+background: #707070;
+
+
+/* Color Block */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: calc(50% - 28px/2 + 14.5px);
+top: 0px;
+
+background: #858585;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 - 14px);
+top: 0px;
+
+background: #999999;
+
+
+/* Color Block */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: calc(50% - 28px/2 - 42.5px);
+top: 0px;
+
+background: #ADADAD;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 - 71px);
+top: 0px;
+
+background: #C2C2C2;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 - 100px);
+top: 0px;
+
+background: #D6D6D6;
+
+
+/* Color Block */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: calc(50% - 28px/2 - 128.5px);
+top: 0px;
+
+background: #EBEBEB;
+
+
+/* Color Block */
+
+position: absolute;
+width: 29px;
+height: 28px;
+left: calc(50% - 29px/2 - 157px);
+top: 0px;
+
+background: #FEFFFE;
+
+
+/* Color Selection */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: calc(50% - 28px/2 - 129.5px);
+top: 168px;
+
+/* System Background/Light/Primary
+
+white
+*/
+border: 3px solid #FFFFFF;
+border-radius: 2px;
+
+
+/* Opacity Meter */
+
+position: absolute;
+height: 84px;
+left: 16px;
+right: 16px;
+top: 436px;
+
+
+
+/* Opacity */
+
+position: absolute;
+width: 75px;
+height: 36px;
+right: 2px;
+top: 23px;
+
+/* System Background/Light/Primary
+
+white
+*/
+background: #FFFFFF;
+border-radius: 8px;
+
+
+/* 100% */
+
+position: absolute;
+height: 22px;
+left: 18.67%;
+right: 18.67%;
+top: calc(50% - 22px/2);
+
+/* Body/Bold */
+font-family: 'SF Pro Text';
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 22px;
+/* identical to box height, or 129% */
+text-align: center;
+letter-spacing: -0.408px;
+font-feature-settings: 'case' on;
+
+/* Label Color/Light/Primary */
+color: #000000;
+
+
+
+/* Bottom Divider */
+
+position: absolute;
+height: 2px;
+left: 0px;
+right: 0px;
+bottom: 0px;
+
+/* Separator Color/Light/No Transparency */
+background: #C6C6C8;
+border-radius: 1px;
+
+
+/* Opacity Slider */
+
+position: absolute;
+height: 36px;
+left: 3px;
+right: 88px;
+top: 23px;
+
+
+
+/* Tiled Background */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: url(image.png);
+border-radius: 18px;
+
+
+/* Opacity Slider */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: linear-gradient(90deg, rgba(58, 135, 253, 0.0001) 0%, #3A87FD 85.49%);
+border-radius: 18px;
+
+
+/* Opacity Selector */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 32px;
+height: 32px;
+right: 2px;
+top: calc(50% - 32px/2);
+
+background: #3A87FD;
+/* System Background/Light/Primary
+
+white
+*/
+border: 3px solid #FFFFFF;
+box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
+
+
+/* Opacity */
+
+position: absolute;
+width: 58px;
+height: 18px;
+left: 3px;
+top: 0px;
+
+/* Footnote / Bold */
+font-family: 'SF Pro Text';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 18px;
+/* identical to box height, or 138% */
+letter-spacing: -0.078px;
+
+/* Label Color/Light/Secondary */
+color: rgba(60, 60, 67, 0.6);
+
+
+
+/* Saved Swatch Selector */
+
+position: absolute;
+height: 72px;
+left: 19px;
+right: 16px;
+top: 544px;
+
+
+
+/* Swatch Preview */
+
+position: absolute;
+width: 72px;
+height: 72px;
+left: 0px;
+top: 0px;
+
+background: #000000;
+border-radius: 10px;
+
+
+/* Saved Swatches */
+
+position: absolute;
+height: 72px;
+left: 96px;
+right: 0px;
+top: 0px;
+
+
+
+/* Saved Swatch */
+
+position: absolute;
+width: 30px;
+height: 30px;
+left: calc(50% - 30px/2 - 111px);
+top: calc(50% - 30px/2 - 21px);
+
+
+
+/* Saved Swatch */
+
+position: absolute;
+left: 13.33%;
+right: 13.33%;
+top: 13.33%;
+bottom: 13.33%;
+
+background: #000000;
+border-radius: 11px;
+
+
+/* Selected */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+border: 3px solid #000000;
+border-radius: 15px;
+
+
+/* Saved Swatch */
+
+position: absolute;
+width: 30px;
+height: 30px;
+left: calc(50% - 30px/2 - 111px);
+top: calc(50% - 30px/2 + 21px);
+
+background: #FFAB01;
+border-radius: 15px;
+
+
+/* Saved Swatch */
+
+position: absolute;
+width: 30px;
+height: 30px;
+left: calc(50% - 30px/2 - 55px);
+top: calc(50% - 30px/2 - 21px);
+
+background: #B18CFE;
+border-radius: 15px;
+
+
+/* Saved Swatch */
+
+position: absolute;
+width: 30px;
+height: 30px;
+left: calc(50% - 30px/2 - 55px);
+top: calc(50% - 30px/2 + 21px);
+
+background: #FF8C82;
+border-radius: 15px;
+
+
+/* Saved Swatch */
+
+position: absolute;
+width: 30px;
+height: 30px;
+left: calc(50% - 30px/2);
+top: calc(50% - 30px/2 - 21px);
+
+background: #EE719E;
+border-radius: 15px;
+
+
+/* Saved Swatch */
+
+position: absolute;
+width: 30px;
+height: 30px;
+left: calc(50% - 30px/2);
+top: calc(50% - 30px/2 + 21px);
+
+background: #FF4015;
+border-radius: 15px;
+
+
+/* Saved Swatch */
+
+position: absolute;
+width: 30px;
+height: 30px;
+left: calc(50% - 30px/2 + 55px);
+top: calc(50% - 30px/2 - 21px);
+
+background: #4D22B2;
+border-radius: 15px;
+
+
+/* Saved Swatch */
+
+position: absolute;
+width: 30px;
+height: 30px;
+left: calc(50% - 30px/2 + 55px);
+top: calc(50% - 30px/2 + 21px);
+
+background: #FE6250;
+border-radius: 15px;
+
+
+/* Saved Swatch */
+
+position: absolute;
+width: 30px;
+height: 30px;
+left: calc(50% - 30px/2 + 111px);
+top: calc(50% - 30px/2 - 21px);
+
+background: #D8C9FE;
+border-radius: 15px;
+
+
+/* Icon / Add */
+
+position: absolute;
+width: 30px;
+height: 30px;
+left: calc(50% - 30px/2 + 111px);
+top: calc(50% - 30px/2 + 21px);
+
+/* Fill Color/Light/Tertiary */
+background: rgba(118, 118, 128, 0.12);
+border-radius: 14.8571px;
+
+
+/* Plus */
+
+position: absolute;
+width: 14.67px;
+height: 14.67px;
+left: calc(50% - 14.67px/2 + 0.33px);
+top: calc(50% - 14.67px/2 + 0.33px);
+
+/* Label Color/Light/Secondary */
+background: rgba(60, 60, 67, 0.6);
+
+
+/* Bottom Arrow */
+
+position: absolute;
+width: 47px;
+height: 13px;
+left: calc(50% - 47px/2);
+bottom: -13px;
+
+background: rgba(250, 250, 250, 0.93);
+backdrop-filter: blur(40.7742px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 13px;
+
+
+/* TimePicker */
+
+width: 390px;
+height: 178px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* 1 / 45 */
+
+position: absolute;
+left: 32.56%;
+right: 66.15%;
+top: 98.31%;
+bottom: 0%;
+
+
+
+/* 1 */
+
+position: absolute;
+width: 5px;
+height: 3px;
+left: calc(50% - 5px/2 - 65.5px);
+top: calc(50% - 3px/2 + 87.5px);
+
+/* Label Color/Light/Secondary */
+background: rgba(60, 60, 67, 0.6);
+
+
+/* 45 */
+
+position: absolute;
+width: 22px;
+height: 2px;
+left: calc(50% - 22px/2 - 6px);
+top: calc(50% - 2px/2 + 87px);
+
+/* Label Color/Light/Secondary */
+background: rgba(60, 60, 67, 0.6);
+
+
+/* 12 / 44 */
+
+position: absolute;
+left: 28.69%;
+right: 48.72%;
+top: 91.46%;
+bottom: 4.33%;
+
+
+
+/* 12 */
+
+position: absolute;
+width: 20.11px;
+height: 6.98px;
+left: calc(50% - 20.11px/2 - 73.05px);
+top: calc(50% - 6.98px/2 + 77.81px);
+
+/* Label Color/Light/Secondary */
+background: rgba(60, 60, 67, 0.6);
+transform: rotate(-1.5deg);
+
+
+/* 44 */
+
+position: absolute;
+width: 22px;
+height: 7px;
+left: calc(50% - 22px/2 - 6px);
+top: calc(50% - 7px/2 + 77.5px);
+
+/* Label Color/Light/Secondary */
+background: rgba(60, 60, 67, 0.6);
+
+
+/* 11 / 43 */
+
+position: absolute;
+left: 28.97%;
+right: 48.21%;
+top: 78.09%;
+bottom: 14.04%;
+
+
+
+/* 11 */
+
+position: absolute;
+width: 19px;
+height: 14px;
+left: calc(50% - 19px/2 - 72.5px);
+top: calc(50% - 14px/2 + 57px);
+
+/* Label Color/Light/Secondary */
+background: rgba(60, 60, 67, 0.6);
+
+
+/* 43 */
+
+position: absolute;
+width: 24px;
+height: 11px;
+left: calc(50% - 24px/2 - 5px);
+top: calc(50% - 11px/2 + 58.5px);
+
+/* Label Color/Light/Secondary */
+background: rgba(60, 60, 67, 0.6);
+
+
+/* 10 / 42 */
+
+position: absolute;
+left: 28.21%;
+right: 31.79%;
+top: 63.48%;
+bottom: 28.09%;
+
+
+
+/* 10 */
+
+position: absolute;
+width: 22px;
+height: 15px;
+left: calc(50% - 22px/2 - 74px);
+top: calc(50% - 15px/2 + 31.5px);
+
+/* Label Color/Light/Secondary */
+background: rgba(60, 60, 67, 0.6);
+
+
+/* 42 */
+
+position: absolute;
+width: 23px;
+height: 14px;
+left: calc(50% - 23px/2 - 5.5px);
+top: calc(50% - 14px/2 + 31px);
+
+/* Label Color/Light/Secondary */
+background: rgba(60, 60, 67, 0.6);
+
+
+/* PM */
+
+position: absolute;
+width: 29px;
+height: 14px;
+left: calc(50% - 29px/2 + 56.5px);
+top: calc(50% - 14px/2 + 31px);
+
+/* Label Color/Light/Secondary */
+background: rgba(60, 60, 67, 0.6);
+
+
+/* Selection */
+
+position: absolute;
+height: 34px;
+left: 0px;
+right: 0px;
+top: calc(50% - 34px/2);
+
+/* Fill Color/Light/Quaternary */
+background: rgba(116, 116, 128, 0.08);
+border-radius: 8px;
+
+
+/* 9 */
+
+position: absolute;
+width: 15px;
+height: 28px;
+left: calc(50% - 15px/2 - 69.5px);
+top: calc(50% - 28px/2);
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 23px;
+line-height: 28px;
+/* identical to box height, or 122% */
+display: flex;
+align-items: center;
+text-align: right;
+letter-spacing: 2.35px;
+
+/* Label Color/Light/Secondary */
+color: rgba(60, 60, 67, 0.6);
+
+
+
+/* 41 */
+
+position: absolute;
+width: 27px;
+height: 28px;
+left: calc(50% - 27px/2 - 5.5px);
+top: calc(50% - 28px/2);
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 23px;
+line-height: 28px;
+/* identical to box height, or 122% */
+display: flex;
+align-items: center;
+letter-spacing: 2.35px;
+
+/* Label Color/Light/Secondary */
+color: rgba(60, 60, 67, 0.6);
+
+
+
+/* AM */
+
+position: absolute;
+width: 35px;
+height: 28px;
+left: calc(50% - 35px/2 + 57.5px);
+top: calc(50% - 28px/2);
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 23px;
+line-height: 28px;
+/* identical to box height, or 122% */
+display: flex;
+align-items: center;
+letter-spacing: 0.35px;
+
+/* Label Color/Light/Secondary */
+color: rgba(60, 60, 67, 0.6);
+
+
+
+/* 41 */
+
+position: absolute;
+width: 27px;
+height: 28px;
+left: calc(50% - 27px/2 - 5.5px);
+top: calc(50% - 28px/2 + 36px);
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 23px;
+line-height: 28px;
+/* identical to box height, or 122% */
+display: flex;
+align-items: center;
+letter-spacing: 2.35px;
+
+/* Label Color/Light/Secondary */
+color: rgba(60, 60, 67, 0.6);
+
+
+
+/* 8 / 40 */
+
+position: absolute;
+left: 31.03%;
+right: 47.44%;
+top: 27.53%;
+bottom: 64.04%;
+
+
+
+/* 40 */
+
+position: absolute;
+width: 28px;
+height: 15px;
+left: calc(50% - 28px/2 - 4px);
+top: calc(50% - 15px/2 - 32.5px);
+
+/* Label Color/Light/Secondary */
+background: rgba(60, 60, 67, 0.6);
+
+
+/* 8 */
+
+position: absolute;
+width: 11px;
+height: 15px;
+left: calc(50% - 11px/2 - 68.5px);
+top: calc(50% - 15px/2 - 32.5px);
+
+/* Label Color/Light/Secondary */
+background: rgba(60, 60, 67, 0.6);
+
+
+/* 7 / 39 */
+
+position: absolute;
+left: 31.28%;
+right: 47.44%;
+top: 14.61%;
+bottom: 79.21%;
+
+
+
+/* 7 */
+
+position: absolute;
+width: 10px;
+height: 11px;
+left: calc(50% - 10px/2 - 68px);
+top: calc(50% - 11px/2 - 57.5px);
+
+/* Label Color/Light/Secondary */
+background: rgba(60, 60, 67, 0.6);
+
+
+/* 39 */
+
+position: absolute;
+width: 28px;
+height: 7px;
+left: calc(50% - 28px/2 - 4px);
+top: calc(50% - 7px/2 - 56.5px);
+
+/* Label Color/Light/Secondary */
+background: rgba(60, 60, 67, 0.6);
+
+
+/* 6 / 38 */
+
+position: absolute;
+left: 31.28%;
+right: 47.44%;
+top: 4.49%;
+bottom: 89.33%;
+
+
+
+/* 6 */
+
+position: absolute;
+width: 10px;
+height: 7px;
+left: calc(50% - 10px/2 - 68px);
+top: calc(50% - 7px/2 - 77.5px);
+
+/* Label Color/Light/Secondary */
+background: rgba(60, 60, 67, 0.6);
+
+
+/* 38 */
+
+position: absolute;
+width: 28px;
+height: 5px;
+left: calc(50% - 28px/2 - 4px);
+top: calc(50% - 5px/2 - 72.5px);
+
+/* Label Color/Light/Secondary */
+background: rgba(60, 60, 67, 0.6);
+
+
+/* 5 / 37 */
+
+position: absolute;
+left: 31.28%;
+right: 47.69%;
+top: 0%;
+bottom: 98.31%;
+
+
+
+/* 5 */
+
+position: absolute;
+width: 10px;
+height: 3px;
+left: calc(50% - 10px/2 - 68px);
+top: calc(50% - 3px/2 - 87.5px);
+
+/* Label Color/Light/Secondary */
+background: rgba(60, 60, 67, 0.6);
+
+
+/* 37 */
+
+position: absolute;
+width: 27px;
+height: 3px;
+left: calc(50% - 27px/2 - 4.5px);
+top: calc(50% - 3px/2 - 87.5px);
+
+/* Label Color/Light/Secondary */
+background: rgba(60, 60, 67, 0.6);
+
+
+/* DetailedTableView */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 390px;
+height: 219px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Title */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px 0px 8px 16px;
+
+width: 390px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* ✏️ Title */
+
+width: 33px;
+height: 16px;
+
+font-family: 'SF Pro Text';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-transform: uppercase;
+
+/* Label Color/Light/Secondary */
+color: rgba(60, 60, 67, 0.6);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* TableViewCells */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+isolation: isolate;
+
+width: 390px;
+height: 171px;
+
+border-radius: 10px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* DetailedTableView-smallCell */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 0px 0px 0px 16px;
+
+width: 390px;
+height: 57px;
+
+/* System Background/Light/Primary
+
+white
+*/
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+z-index: 5;
+
+
+/* Icon + Content */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 374px;
+height: 57px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Icon */
+
+width: 30px;
+height: 30px;
+
+border-radius: 7px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* SF Symbol / bell.fill */
+
+position: absolute;
+width: 15.66px;
+height: 17.47px;
+left: 7.16px;
+top: 6.77px;
+
+/* Default/SystemBlue/Light
+
+Link, CTA
+*/
+background: #007AFF;
+
+
+/* ✏️ SF Symbol */
+
+position: absolute;
+visibility: hidden;
+width: 20px;
+height: 22px;
+left: 5px;
+top: 4.5px;
+
+/* Body/Regular */
+font-family: 'SF Pro Text';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 22px;
+/* identical to box height, or 129% */
+text-align: center;
+letter-spacing: -0.408px;
+font-feature-settings: 'case' on;
+
+/* Default/SystemBlue/Light */
+color: #007AFF;
+
+
+
+/* Content */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+width: 336px;
+height: 57px;
+
+/* Separator Color/Light/With Transparency */
+border-bottom: 0.5px solid rgba(60, 60, 67, 0.36);
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Left Content */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 8px 16px 9px 0px;
+gap: 2px;
+
+width: 336px;
+height: 57px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* ✏️ Label */
+
+width: 320px;
+height: 22px;
+
+/* Body/Regular */
+font-family: 'SF Pro Text';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 22px;
+/* identical to box height, or 129% */
+letter-spacing: -0.408px;
+font-feature-settings: 'case' on;
+
+/* Label Color/Light/Primary */
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* ✏️ Desc. */
+
+width: 320px;
+height: 16px;
+
+/* Caption1 / Regular */
+font-family: 'SF Pro Text';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Label Color/Light/Secondary */
+color: rgba(60, 60, 67, 0.6);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* DetailedTableView-smallCell */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 0px 0px 0px 16px;
+
+width: 390px;
+height: 57px;
+
+/* System Background/Light/Primary
+
+white
+*/
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+z-index: 4;
+
+
+/* Icon + Content */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 374px;
+height: 57px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Icon */
+
+width: 30px;
+height: 30px;
+
+border-radius: 7px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* SF Symbol / bell.fill */
+
+position: absolute;
+width: 15.66px;
+height: 17.47px;
+left: 7.16px;
+top: 6.77px;
+
+/* Default/SystemBlue/Light
+
+Link, CTA
+*/
+background: #007AFF;
+
+
+/* ✏️ SF Symbol */
+
+position: absolute;
+visibility: hidden;
+width: 20px;
+height: 22px;
+left: 5px;
+top: 4.5px;
+
+/* Body/Regular */
+font-family: 'SF Pro Text';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 22px;
+/* identical to box height, or 129% */
+text-align: center;
+letter-spacing: -0.408px;
+font-feature-settings: 'case' on;
+
+/* Default/SystemBlue/Light */
+color: #007AFF;
+
+
+
+/* Content */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+width: 336px;
+height: 57px;
+
+/* Separator Color/Light/With Transparency */
+border-bottom: 0.5px solid rgba(60, 60, 67, 0.36);
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Left Content */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 8px 16px 9px 0px;
+gap: 2px;
+
+width: 336px;
+height: 57px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* ✏️ Label */
+
+width: 320px;
+height: 22px;
+
+/* Body/Regular */
+font-family: 'SF Pro Text';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 22px;
+/* identical to box height, or 129% */
+letter-spacing: -0.408px;
+font-feature-settings: 'case' on;
+
+/* Label Color/Light/Primary */
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* ✏️ Desc. */
+
+width: 320px;
+height: 16px;
+
+/* Caption1 / Regular */
+font-family: 'SF Pro Text';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Label Color/Light/Secondary */
+color: rgba(60, 60, 67, 0.6);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* DetailedTableView-smallCell */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 0px 0px 0px 16px;
+
+display: none;
+width: 358px;
+height: 44px;
+
+/* System Background/Light/Primary
+
+white
+*/
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+z-index: 3;
+
+
+/* DetailedTableView-smallCell */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 0px 0px 0px 16px;
+
+display: none;
+width: 358px;
+height: 57px;
+
+/* System Background/Light/Primary
+
+white
+*/
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+z-index: 2;
+
+
+/* DetailedTableView-smallCell */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 0px 0px 0px 16px;
+
+display: none;
+width: 358px;
+height: 57px;
+
+/* System Background/Light/Primary
+
+white
+*/
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+align-self: stretch;
+flex-grow: 0;
+z-index: 1;
+
+
+/* _DetailedTableView-cell (last) */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 0px 0px 0px 16px;
+
+width: 390px;
+height: 57px;
+
+/* System Background/Light/Primary
+
+white
+*/
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+align-self: stretch;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Icon + Content */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 374px;
+height: 57px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Icon */
+
+width: 30px;
+height: 30px;
+
+border-radius: 7px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* SF Symbol / bell.fill */
+
+position: absolute;
+width: 15.66px;
+height: 17.47px;
+left: 7.16px;
+top: 6.77px;
+
+/* Default/SystemBlue/Light
+
+Link, CTA
+*/
+background: #007AFF;
+
+
+/* ✏️ SF Symbol */
+
+position: absolute;
+visibility: hidden;
+width: 20px;
+height: 22px;
+left: 5px;
+top: 4.5px;
+
+/* Body/Regular */
+font-family: 'SF Pro Text';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 22px;
+/* identical to box height, or 129% */
+text-align: center;
+letter-spacing: -0.408px;
+font-feature-settings: 'case' on;
+
+/* Default/SystemBlue/Light */
+color: #007AFF;
+
+
+
+/* Content */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+width: 336px;
+height: 57px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Left Content */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 8px 16px 9px 0px;
+gap: 2px;
+
+width: 336px;
+height: 57px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* ✏️ Label */
+
+width: 320px;
+height: 22px;
+
+/* Body/Regular */
+font-family: 'SF Pro Text';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 22px;
+/* identical to box height, or 129% */
+letter-spacing: -0.408px;
+font-feature-settings: 'case' on;
+
+/* Label Color/Light/Primary */
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* ✏️ Desc. */
+
+width: 320px;
+height: 16px;
+
+/* Caption1 / Regular */
+font-family: 'SF Pro Text';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Label Color/Light/Secondary */
+color: rgba(60, 60, 67, 0.6);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Desc. */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px 16px 0px;
+
+width: 390px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* ✏️ Desc. */
+
+width: 358px;
+height: 16px;
+
+/* Caption1 / Regular */
+font-family: 'SF Pro Text';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+/* Label Color/Light/Secondary */
+color: rgba(60, 60, 67, 0.6);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Homescreen */
+
+width: 393px;
+height: 852px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* iPhone 14 Wallpaper */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+
+
+/* Wallpaper */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: url(iPhone 14 yellow wallpaper.png);
+
+
+/* Apps + Widgets */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 27px;
+
+position: absolute;
+width: 339px;
+height: 571px;
+left: calc(50% - 339px/2 + 1px);
+top: 71px;
+
+
+
+/* _Homescreen-smallWidget */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 26px;
+
+width: 334px;
+height: 180px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Widgets */
+
+width: 158px;
+height: 158px;
+
+/* System Background/Light/Primary
+
+white
+*/
+background: #FFFFFF;
+border-radius: 22px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Widget */
+
+position: absolute;
+width: 42px;
+height: 16px;
+left: calc(50% - 42px/2 - 1px);
+top: 163px;
+
+/* Caption1 / Bold */
+font-family: 'SF Pro Text';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+
+/* Label Color/Dark/Primary */
+color: #FFFFFF;
+
+
+
+/* Apps */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 150px;
+height: 180px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* App Row */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 30px;
+
+width: 150px;
+height: 82px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* _Homescreen-appIcon */
+
+width: 60px;
+height: 82px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* ✏️ App Icon */
+
+position: absolute;
+width: 60px;
+height: 60px;
+left: calc(50% - 60px/2);
+top: 0px;
+
+background: linear-gradient(180deg, #303030 0%, #121212 100%);
+border-radius: 13px;
+
+
+/* REPLACE ME */
+
+position: absolute;
+width: 68px;
+height: 68px;
+left: -4px;
+top: -4px;
+
+background: url(Place Image Here.png);
+filter: drop-shadow(0px 10px 60px rgba(0, 0, 0, 0.1));
+
+
+/* ✏️ App Name */
+
+position: absolute;
+width: 61px;
+height: 16px;
+left: calc(50% - 61px/2 + 0.5px);
+top: 65px;
+
+/* Default/Bold/Caption1 */
+font-family: 'SF Pro Text';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+
+/* Label Color/Dark/Primary */
+color: #FFFFFF;
+
+
+
+/* _Homescreen-appIcon */
+
+width: 60px;
+height: 82px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* ✏️ App Icon */
+
+position: absolute;
+width: 60px;
+height: 60px;
+left: calc(50% - 60px/2);
+top: 0px;
+
+background: linear-gradient(180deg, #303030 0%, #121212 100%);
+border-radius: 13px;
+
+
+/* REPLACE ME */
+
+position: absolute;
+width: 68px;
+height: 68px;
+left: -4px;
+top: -4px;
+
+background: url(Place Image Here.png);
+filter: drop-shadow(0px 10px 60px rgba(0, 0, 0, 0.1));
+
+
+/* ✏️ App Name */
+
+position: absolute;
+width: 61px;
+height: 16px;
+left: calc(50% - 61px/2 + 0.5px);
+top: 65px;
+
+/* Default/Bold/Caption1 */
+font-family: 'SF Pro Text';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+
+/* Label Color/Dark/Primary */
+color: #FFFFFF;
+
+
+
+/* App Row */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 30px;
+
+width: 150px;
+height: 82px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* _Homescreen-appIcon */
+
+width: 60px;
+height: 82px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* ✏️ App Icon */
+
+position: absolute;
+width: 60px;
+height: 60px;
+left: calc(50% - 60px/2);
+top: 0px;
+
+background: linear-gradient(180deg, #303030 0%, #121212 100%);
+border-radius: 13px;
+
+
+/* REPLACE ME */
+
+position: absolute;
+width: 68px;
+height: 68px;
+left: -4px;
+top: -4px;
+
+background: url(Place Image Here.png);
+filter: drop-shadow(0px 10px 60px rgba(0, 0, 0, 0.1));
+
+
+/* ✏️ App Name */
+
+position: absolute;
+width: 61px;
+height: 16px;
+left: calc(50% - 61px/2 + 0.5px);
+top: 65px;
+
+/* Default/Bold/Caption1 */
+font-family: 'SF Pro Text';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+
+/* Label Color/Dark/Primary */
+color: #FFFFFF;
+
+
+
+/* _Homescreen-appIcon */
+
+width: 60px;
+height: 82px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* ✏️ App Icon */
+
+position: absolute;
+width: 60px;
+height: 60px;
+left: calc(50% - 60px/2);
+top: 0px;
+
+background: linear-gradient(180deg, #303030 0%, #121212 100%);
+border-radius: 13px;
+
+
+/* REPLACE ME */
+
+position: absolute;
+width: 68px;
+height: 68px;
+left: -4px;
+top: -4px;
+
+background: url(Place Image Here.png);
+filter: drop-shadow(0px 10px 60px rgba(0, 0, 0, 0.1));
+
+
+/* ✏️ App Name */
+
+position: absolute;
+width: 61px;
+height: 16px;
+left: calc(50% - 61px/2 + 0.5px);
+top: 65px;
+
+/* Default/Bold/Caption1 */
+font-family: 'SF Pro Text';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+
+/* Label Color/Dark/Primary */
+color: #FFFFFF;
+
+
+
+/* _Homescreen-smallWidget */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px 0px 0px 4px;
+gap: 27px;
+
+width: 339px;
+height: 180px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Apps */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 150px;
+height: 180px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* App Row */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 30px;
+
+width: 150px;
+height: 82px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* _Homescreen-appIcon */
+
+width: 60px;
+height: 82px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* ✏️ App Icon */
+
+position: absolute;
+width: 60px;
+height: 60px;
+left: calc(50% - 60px/2);
+top: 0px;
+
+background: linear-gradient(180deg, #303030 0%, #121212 100%);
+border-radius: 13px;
+
+
+/* REPLACE ME */
+
+position: absolute;
+width: 68px;
+height: 68px;
+left: -4px;
+top: -4px;
+
+background: url(Place Image Here.png);
+filter: drop-shadow(0px 10px 60px rgba(0, 0, 0, 0.1));
+
+
+/* ✏️ App Name */
+
+position: absolute;
+width: 61px;
+height: 16px;
+left: calc(50% - 61px/2 + 0.5px);
+top: 65px;
+
+/* Default/Bold/Caption1 */
+font-family: 'SF Pro Text';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+
+/* Label Color/Dark/Primary */
+color: #FFFFFF;
+
+
+
+/* _Homescreen-appIcon */
+
+width: 60px;
+height: 82px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* ✏️ App Icon */
+
+position: absolute;
+width: 60px;
+height: 60px;
+left: calc(50% - 60px/2);
+top: 0px;
+
+background: linear-gradient(180deg, #303030 0%, #121212 100%);
+border-radius: 13px;
+
+
+/* REPLACE ME */
+
+position: absolute;
+width: 68px;
+height: 68px;
+left: -4px;
+top: -4px;
+
+background: url(Place Image Here.png);
+filter: drop-shadow(0px 10px 60px rgba(0, 0, 0, 0.1));
+
+
+/* ✏️ App Name */
+
+position: absolute;
+width: 61px;
+height: 16px;
+left: calc(50% - 61px/2 + 0.5px);
+top: 65px;
+
+/* Default/Bold/Caption1 */
+font-family: 'SF Pro Text';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+
+/* Label Color/Dark/Primary */
+color: #FFFFFF;
+
+
+
+/* App Row */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 30px;
+
+width: 150px;
+height: 82px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* _Homescreen-appIcon */
+
+width: 60px;
+height: 82px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* ✏️ App Icon */
+
+position: absolute;
+width: 60px;
+height: 60px;
+left: calc(50% - 60px/2);
+top: 0px;
+
+background: linear-gradient(180deg, #303030 0%, #121212 100%);
+border-radius: 13px;
+
+
+/* REPLACE ME */
+
+position: absolute;
+width: 68px;
+height: 68px;
+left: -4px;
+top: -4px;
+
+background: url(Place Image Here.png);
+filter: drop-shadow(0px 10px 60px rgba(0, 0, 0, 0.1));
+
+
+/* ✏️ App Name */
+
+position: absolute;
+width: 61px;
+height: 16px;
+left: calc(50% - 61px/2 + 0.5px);
+top: 65px;
+
+/* Default/Bold/Caption1 */
+font-family: 'SF Pro Text';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+
+/* Label Color/Dark/Primary */
+color: #FFFFFF;
+
+
+
+/* _Homescreen-appIcon */
+
+width: 60px;
+height: 82px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* ✏️ App Icon */
+
+position: absolute;
+width: 60px;
+height: 60px;
+left: calc(50% - 60px/2);
+top: 0px;
+
+background: linear-gradient(180deg, #303030 0%, #121212 100%);
+border-radius: 13px;
+
+
+/* REPLACE ME */
+
+position: absolute;
+width: 68px;
+height: 68px;
+left: -4px;
+top: -4px;
+
+background: url(Place Image Here.png);
+filter: drop-shadow(0px 10px 60px rgba(0, 0, 0, 0.1));
+
+
+/* ✏️ App Name */
+
+position: absolute;
+width: 61px;
+height: 16px;
+left: calc(50% - 61px/2 + 0.5px);
+top: 65px;
+
+/* Default/Bold/Caption1 */
+font-family: 'SF Pro Text';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+
+/* Label Color/Dark/Primary */
+color: #FFFFFF;
+
+
+
+/* Widgets */
+
+width: 158px;
+height: 158px;
+
+/* System Background/Light/Primary
+
+white
+*/
+background: #FFFFFF;
+border-radius: 22px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Widget */
+
+position: absolute;
+width: 42px;
+height: 16px;
+left: calc(50% - 42px/2 - 1px);
+top: 163px;
+
+/* Caption1 / Bold */
+font-family: 'SF Pro Text';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+
+/* Label Color/Dark/Primary */
+color: #FFFFFF;
+
+
+
+/* _Homescreen-mediumWidget */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 37px;
+
+width: 338px;
+height: 157px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Widgets */
+
+width: 338px;
+height: 157px;
+
+/* System Background/Light/Primary
+
+white
+*/
+background: #FFFFFF;
+border-radius: 22px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Widget */
+
+position: absolute;
+width: 42px;
+height: 16px;
+left: calc(50% - 42px/2);
+top: 162px;
+
+/* Caption1 / Bold */
+font-family: 'SF Pro Text';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+
+/* Label Color/Dark/Primary */
+color: #FFFFFF;
+
+
+
+/* _Homescreen-dock */
+
+position: absolute;
+width: 369px;
+height: 93px;
+left: calc(50% - 369px/2);
+bottom: 12px;
+
+
+
+/* Dock / Light */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Dock */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: rgba(245, 245, 245, 0.5);
+backdrop-filter: blur(40px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 35px;
+
+
+/* Icons */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 0px;
+gap: 27px;
+
+position: absolute;
+left: 4.79%;
+right: 4.79%;
+top: 17.2%;
+bottom: 18.28%;
+
+
+
+/* _Homescreen-appIcon */
+
+margin: 0 auto;
+width: 60px;
+height: 82px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* ✏️ App Icon */
+
+position: absolute;
+width: 60px;
+height: 60px;
+left: calc(50% - 60px/2);
+top: 0px;
+
+background: linear-gradient(180deg, #303030 0%, #121212 100%);
+border-radius: 13px;
+
+
+/* REPLACE ME */
+
+position: absolute;
+width: 68px;
+height: 68px;
+left: -4px;
+top: -4px;
+
+background: url(Place Image Here.png);
+
+
+/* _Homescreen-appIcon */
+
+margin: 0 auto;
+width: 60px;
+height: 82px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* ✏️ App Icon */
+
+position: absolute;
+width: 60px;
+height: 60px;
+left: calc(50% - 60px/2);
+top: 0px;
+
+background: linear-gradient(180deg, #303030 0%, #121212 100%);
+border-radius: 13px;
+
+
+/* REPLACE ME */
+
+position: absolute;
+width: 68px;
+height: 68px;
+left: -4px;
+top: -4px;
+
+background: url(Place Image Here.png);
+
+
+/* _Homescreen-appIcon */
+
+margin: 0 auto;
+width: 60px;
+height: 82px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* ✏️ App Icon */
+
+position: absolute;
+width: 60px;
+height: 60px;
+left: calc(50% - 60px/2);
+top: 0px;
+
+background: linear-gradient(180deg, #303030 0%, #121212 100%);
+border-radius: 13px;
+
+
+/* REPLACE ME */
+
+position: absolute;
+width: 68px;
+height: 68px;
+left: -4px;
+top: -4px;
+
+background: url(Place Image Here.png);
+
+
+/* _Homescreen-appIcon */
+
+margin: 0 auto;
+width: 60px;
+height: 82px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* ✏️ App Icon */
+
+position: absolute;
+width: 60px;
+height: 60px;
+left: calc(50% - 60px/2);
+top: 0px;
+
+background: linear-gradient(180deg, #303030 0%, #121212 100%);
+border-radius: 13px;
+
+
+/* REPLACE ME */
+
+position: absolute;
+width: 68px;
+height: 68px;
+left: -4px;
+top: -4px;
+
+background: url(Place Image Here.png);
+
+
+/* StatusBar */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-end;
+padding: 0px;
+
+position: absolute;
+height: 59px;
+left: 0px;
+right: 0px;
+top: 0px;
+
+
+
+/* Left Side */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 0px 3px 10px;
+gap: 8px;
+
+width: 134px;
+height: 59px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* _StatusBar-time */
+
+width: 54px;
+height: 21px;
+
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* ✏️ Time */
+
+position: absolute;
+width: 54px;
+height: 20px;
+left: 0px;
+top: 1px;
+
+/* Callout / Bold */
+font-family: 'SF Pro Text';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 21px;
+/* or 131% */
+text-align: center;
+letter-spacing: -0.32px;
+
+/* Label Color/Light/Primary */
+color: #000000;
+
+
+
+/* Dynamic Island */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 125px;
+height: 59px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* StatusBar-dynamicIsland */
+
+width: 125px;
+height: 37px;
+
+/* System Background/Dark Base/Primary
+
+black
+*/
+background: #000000;
+border-radius: 100px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* TrueDepth camera */
+
+position: absolute;
+width: 80px;
+height: 37px;
+left: calc(50% - 80px/2 - 22.5px);
+top: calc(50% - 37px/2);
+
+/* System Background/Dark Base/Primary
+
+black
+*/
+background: #000000;
+border-radius: 100px;
+
+
+/* FaceTime camera */
+
+position: absolute;
+width: 37px;
+height: 37px;
+left: calc(50% - 37px/2 + 44px);
+top: calc(50% - 37px/2);
+
+/* System Background/Dark Base/Primary
+
+black
+*/
+background: #000000;
+border-radius: 100px;
+
+
+/* Right Side */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 11px 0px 0px;
+gap: 8px;
+
+width: 134px;
+height: 59px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Signal, Wifi, Battery */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 78.4px;
+height: 13px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icon / Mobile Signal */
+
+width: 18px;
+height: 12px;
+
+/* Label Color/Light/Primary */
+background: #000000;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Wifi */
+
+width: 17px;
+height: 11.83px;
+
+/* Label Color/Light/Primary */
+background: #000000;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Wifi-path */
+
+position: absolute;
+width: 17px;
+height: 5.39px;
+left: calc(50% - 17px/2 - 4.7px);
+top: 0px;
+
+background: #DADADA;
+
+
+/* Wifi-path */
+
+position: absolute;
+width: 11.07px;
+height: 4.13px;
+left: calc(50% - 11.07px/2 - 4.66px);
+top: 4px;
+
+background: #DADADA;
+
+
+/* Wifi-path */
+
+position: absolute;
+width: 5.15px;
+height: 3.83px;
+left: calc(50% - 5.15px/2 - 4.63px);
+top: 8px;
+
+background: #DADADA;
+
+
+/* _StatusBar-battery */
+
+width: 27.4px;
+height: 13px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Outline */
+
+box-sizing: border-box;
+
+position: absolute;
+height: 13px;
+left: 0px;
+right: 2.4px;
+top: calc(50% - 13px/2);
+
+mix-blend-mode: normal;
+opacity: 0.35;
+border: 1px solid #000000;
+border-radius: 4px;
+
+
+/* Battery End */
+
+position: absolute;
+width: 1.4px;
+height: 4.22px;
+right: 0px;
+top: calc(50% - 4.22px/2 + 0.61px);
+
+background: #000000;
+mix-blend-mode: normal;
+opacity: 0.4;
+
+
+/* Fill */
+
+position: absolute;
+height: 9px;
+left: 2px;
+right: 4.4px;
+top: calc(50% - 9px/2);
+
+background: #000000;
+border-radius: 2px;
+
+
+/* Search */
+
+position: absolute;
+width: 78px;
+height: 28px;
+left: calc(50% - 78px/2 + 0.5px);
+bottom: 127px;
+
+background: rgba(245, 245, 245, 0.4);
+backdrop-filter: blur(40px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 14px;
+
+
+/* Content */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+position: absolute;
+width: 55.69px;
+height: 16px;
+left: 11px;
+top: 6px;
+
+
+
+/* SF Symbol / magnifyingglass */
+
+width: 10.69px;
+height: 10.79px;
+
+/* Label Color/Dark/Primary */
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Search */
+
+width: 41px;
+height: 16px;
+
+/* Caption1 / Bold */
+font-family: 'SF Pro Text';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Label Color/Dark/Primary */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
