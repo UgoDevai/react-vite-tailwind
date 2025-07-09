@@ -152,7 +152,7 @@ function HeroCarousel({ language }) {
     }, 6000);
     
     return () => clearTimeout(timer);
-  }, [activeIndex, isTransitioning, isDragging]);
+  }, [activeIndex, isTransitioning, isDragging]); // eslint-disable-line react-hooks/exhaustive-deps
 
   // Add global mouse events for scrubbing
   useEffect(() => {
@@ -168,7 +168,7 @@ function HeroCarousel({ language }) {
         document.removeEventListener('mouseup', handleGlobalMouseUp);
       };
     }
-  }, [isDragging]);
+  }, [isDragging]); // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
     <div className="relative h-[70vh] md:h-[65vh] overflow-hidden">
